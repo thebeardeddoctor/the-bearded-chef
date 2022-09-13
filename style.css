@@ -1,0 +1,18 @@
+/* style the header */
+header {
+ background-color:hsl(165,10.91%,56.86%);
+}
+h1.hero{
+ color: hsl(240,2.27%,17.25%);
+ text-align: center;
+ padding-top: 80px;
+ padding-bottom: 40px;
+}
+/* style the paragraph */
+p.indent{
+ color:hsl(240,2.27%,17.25%);
+ text-align: center;
+
+}
+
+style the navbar
