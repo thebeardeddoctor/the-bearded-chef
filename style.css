@@ -258,7 +258,8 @@ div.pics:hover figcaption{
 
 @media (max-width: 800px) {
   .breakfastbox {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .navlinks ul{
     margin: 0;
