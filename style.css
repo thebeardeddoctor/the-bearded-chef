@@ -255,3 +255,20 @@ figcaption{
 div.pics:hover figcaption{
   color: transparent;
 }
+
+@media (max-width: 800px) {
+  .breakfastbox {
+    display: block;
+  }
+  .navlinks ul{
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-items: center;
+}
+.navbar{
+  display: block;
+  align-items: center;
+}
+
+}
