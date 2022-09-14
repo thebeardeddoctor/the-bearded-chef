@@ -35,12 +35,12 @@ The overall purpose of this project is to practice basic webpage structure and s
    - https://www.foxyfolksy.com/skinless-longganisa/
 
 ### Tinapay
-1. shrimp Spring rolls
-1. turkey club sandwhich
-1. fish tacos
-1. chicken Bahn mi
-1. mini pizza
-1. gourmet grilled cheese
+1. Shrimp Spring rolls
+1. Turkey Club Sandwhich
+1. Fish Tacos
+1. Chicken Bahn Mi
+1. Mini Pizza
+1. Gourmet Grilled Cheese
 
 
 
