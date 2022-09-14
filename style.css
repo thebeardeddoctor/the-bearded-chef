@@ -5,7 +5,15 @@
 html ,*, body{
   margin: 0;
   padding: 0;
+}
 
+audio::-webkit-media-controls-panel{
+  background-color: rgb(89,114,78);
+}
+audio{
+  position:fixed;
+  bottom:0;
+  z-index: 2000;
 }
 del{
   color: rgb(133,157,151);
@@ -63,6 +71,9 @@ target the a tag (link) within the brand title and remove text decoration and ad
   color: hsl(36,22.73%,82.75%);
   text-decoration: none;
 }
+nav{
+  z-index: 1000;
+}
 .navlinks {
   padding-right: 5rem;
 }
@@ -110,6 +121,7 @@ add background color
 .dropdown {
 
   overflow: hidden;
+  z-index: 1000;
   }
   
   /* Dropdown button */
@@ -130,10 +142,10 @@ add background color
     display: none;
     position: absolute;
     background-color: rgb(43,43,45) ;
-  
+   
     min-width: 160px;
     box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.5);
-  
+   
   }
   
   /* Links inside the dropdown */
@@ -143,18 +155,20 @@ add background color
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: left; 
+   
   }
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
     background-color:rgb(133,157,151);
+   
   }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
-  
+
   }
 .youtube iframe{
   display: block;
@@ -185,7 +199,7 @@ add background color
   font-size: 80px;
   font-family: serif;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 80px;
   color: rgb(43,43,45);
 }
 .breakfastbox{
@@ -201,10 +215,43 @@ add background color
    border-radius: 15px;
    
   }
-  div.pics img:hover{
+  
+ 
+  
+  div.captions{
+    text-align: center;
+    background-color: transparent;
+    /* word-wrap: break-word; */
+    
+    max-width: fit-content;
+    color: transparent;
+    position: absolute;
+    border-radius: 15px;
+    height: 10px;
+    transition:  2s;
+  }
+  div.pics:hover div.captions{
+    color: black;
+    background-color: rgb(227,226,227,.8);
+    height: 330px;
+    border-radius: 15px;
     box-shadow: 12px 12px 2px 1px rgb(43,43,45,.3);
+    border: rgb(89,114,78) 10px solid;
   }
   div.pics{
-    box;
+    
+    float: right;
+    display: block;
+    position: relative;
   }
   
+figcaption{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+}
+div.pics:hover figcaption{
+  color: transparent;
+}

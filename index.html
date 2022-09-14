@@ -1,85 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>The Bearded Chef Recipe Web Book</title>
- <link rel="stylesheet" href="style.css"/>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
- <!-- 
-  1. add style sheet
-  2. add header 
-  3. make recipe list
-  4. take photos of dishes
-  5. 
- -->
-</head>
-<body>
- <header>
-  <h1 class="hero">The Bearded <del>Doctor </del>Chef</h1>
-  <p class="hero">
-   Welcome to my recipe web-book! Take a look at some of my favorite recipes.
-   I've linked the original creators of these recipes to <br> 
-   give credit where it is due. However, I've also done 
-   my best to "Doctor" them up to add a bit of originality.<br> 
-   Afterall, I am the Bearded Doctor!
-  </p>
- </header>
-  <nav class="navbar">
-   <div class="brandtitle" ><i class="fa fa-cutlery" aria-hidden="true"><a href="index.html">  The Bearded Chef</a></i></div>
-   <div class="navlinks"> 
-    <ul class="navlist">
-     <li>
-      <div class="dropdown">
-       <button class="dropbtn">Breakfast 
-         <i class="fa fa-caret-down"></i>
-       </button>
-       <div class="dropdown-content">
-         <a href="#">Pancake breakfast</a>
-         <a href="#">The Inkster Omellette</a>
-         <a href="#">Mean Matcha Smoothie</a>
-         <a href="#">Salmon Benny</a>
-         <a href="#">Sexy Oatmeal</a>
-         <a href="#">Longganisa</a>
-       </div>
-     </div> 
-     </li>
-     <li>
-      <div class="dropdown">
-        <button class="dropbtn">Breakfast 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Shrimp Spring rolls</a>
-          <a href="#">Turkey Club Sandwhich</a>
-          <a href="#">Gourmet Grilled Cheese</a>
-          <a href="#">Fish Tacos</a>
-          <a href="#">Chicken Bahn Mi</a>
-        </div>
-      </div> 
-     </li>
-     <li><a href="http://">About</a></li>
-     <li><a href="http://">Content</a></li>
-    </ul>
-   </div>
- </nav>
-
- <!-- </header> -->
-<section class="background-tint">
-<div class="youtube">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/GECR-Eytwjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- </div>
-<h1 class="breakfasttext">Breakfast</h1>
- <div class="breakfastbox">
-  <div class="pics"><img width="400px" height="300px" src="./images/homemade-skinless-longganisa.jpeg" alt=""></div>
-  <div class="pics"><img width="400px" height="300px" src="./images/k_Photo_Recipes_2021-09-peanut-butter-oatmeal_2021-09-13_ATK6875.jpeg" alt=""></div>
-  <div class="pics"><img width="400px" height="300px" src="./images/kelsey-curtis-pancakes.jpg" alt=""></div>
-  <div class="pics"><img width="400px" height="300px" src="./images/matcha.webp" alt=""></div>
-  <div class="pics"><img width="400px" height="300px" src="./images/omellette.jpeg" alt=""></div>
-  <div class="pics"><img width="400px" height="300px" src="./images/pancakes.jpeg" alt=""></div>
- </div>
-</section>
-</body>
+   <head>
+      <script src="recipe.js"></script>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>The Bearded Chef Recipe Web Book</title>
+      <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- 
+         1. add style sheet
+         2. add header 
+         3. make recipe list
+         4. take photos of dishes
+         5. 
+         -->
+   </head>
+   <body>
+      <header>
+         <h1 class="hero">The Bearded <del>Doctor </del>Chef</h1>
+         <p class="hero">
+            Welcome to my recipe web-book! Take a look at some of my favorite recipes.
+            I've linked the original creators of these recipes to <br> 
+            give credit where it is due. However, I've also done 
+            my best to "Doctor" them up to add a bit of originality.<br> 
+            Afterall, I am the Bearded Doctor!
+         </p>
+      </header>
+      <nav class="navbar">
+         <div class="brandtitle" ><i class="fa fa-cutlery" aria-hidden="true"><a href="index.html">  The Bearded Chef</a></i></div>
+         <div class="navlinks">
+            <ul class="navlist">
+               <li>
+                  <div class="dropdown">
+                     <button class="dropbtn">Breakfast 
+                     <i class="fa fa-caret-down"></i>
+                     </button>
+                     <div class="dropdown-content">
+                        <a href="#">Homeade Skinless Longganisa</a>
+                        <a href="#">Sexy Oatmeal</a>
+                        <a href="#">Melt in your Mouth Pancakes</a>
+                        <a href="#">Mean Matcha Smoothie</a>
+                        <a href="#">The Inkster Omellette</a>
+                        <a href="#">Salmon Benny</a>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="dropdown">
+                     <button class="dropbtn">Lunch 
+                     <i class="fa fa-caret-down"></i>
+                     </button>
+                     <div class="dropdown-content">
+                        <a href="#">Shrimp Spring rolls</a>
+                        <a href="#">Turkey Club Sandwhich</a>
+                        <a href="#">Gourmet Grilled Cheese</a>
+                        <a href="#">Fish Tacos</a>
+                        <a href="#">Chicken Bahn Mi</a>
+                     </div>
+                  </div>
+               </li>
+               <li><a href="http://">About</a></li>
+               <li><a href="http://">Content</a></li>
+            </ul>
+         </div>
+      </nav>
+      <!-- </header> -->
+      <section class="background-tint">
+        <audio id="audio" loop="loop" src="./waiting-music-116216.mp3" controls>
+          <p>Enjoy the relaxing tunes or turn off if you please!</p>
+          </audio>
+         <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GECR-Eytwjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+         <h1 class="breakfasttext">Breakfast</h1>
+         <div class="breakfastbox">
+            <div class="pics">
+               <div class="captions">
+                  <h3>Homemade Skinless Longganisa</h3>
+                  <p>This recipe of skinless Longganisa is actually very similar to my old Longanisa post. Except, obviously this is not encased, thus skinless (duh!) and I also added Annatto/Achuete powder and omitted the soy sauce in this recipe. Another difference is that I only used lean ground pork instead of mixing it with pork fat. I did this so to avoid them from shrinking while cooking and because it's all lean meat, they are firmer and will not easily crumble.</p>
+               </div>
+               <div class="imagediv">
+                  <figure>
+                     <figcaption>Homemade Skinless Longganisa</figcaption>
+                     <img width="400px" height="300px" src="./images/longganisa.jpeg" alt="">
+                  </figure>
+               </div>
+            </div>
+            <div class="pics">
+               <div class="captions">
+                  <h3>Sexy Oatmeal</h3>
+                  <p>A hot bowl of oatmeal is one of the easiest, most satisfying breakfasts you can make — especially when peanut butter’s involved. This recipe will show you how to make the best, easiest peanut butter oatmeal in just 15 minutes, with instructions for both the stovetop and the microwave. Let’s get started.</p>
+               </div>
+               <div class="imagediv">
+                  <figure>
+                     <figcaption>Sexy Oatmeal</figcaption>
+                     <img width="400px" height="300px" src="./images/oatmeal.jpeg" alt="">
+                  </figure>
+               </div>
+            </div>
+            <div class="pics">
+               <div class="captions">
+                  <h3>Melt in your Mouth Pancakes</h3>
+                  <p>Nothing says "weekend" like homemade pancakes for breakfast. Our easy recipe will help you whip them up in less than 30 minutes. Making pancake batter from scratch is so simple that you'll wonder why you never did it before!</p>
+               </div>
+               <div class="imagediv">
+                  <figure>
+                     <figcaption>Melt in your Mouth Pancakes</figcaption>
+                     <img width="400px" height="300px" src="./images/pancakes.jpeg" alt="">
+                  </figure>
+               </div>
+            </div>
+            <div class="pics">
+               <div class="captions">
+                  <h3>Mean Matcha Smoothie</h3>
+                  <p>Start your day off with this Banana Matcha Smoothie for a nutrient-packed healthy breakfast. It is the perfect combination of sweet bananas with earthy matcha as well as delicious greens that are rich in iron. Trust us, you will be alert and satisfied all morning long!</p>
+               </div>
+               <div class="imagediv">
+                  <figure>
+                     <figcaption>Mean Matcha Smoothie</figcaption>
+                     <img width="400px" height="300px" src="./images/matcha.jpeg" alt="">
+                  </figure>
+               </div>
+            </div>
+            <div class="pics">
+               <div class="captions">
+                <h3>The Inkster Omelette</h3>
+                <p>"Omelettes are my favorite meals to make. They are super easy, I can throw any veggies in there and call it a day. My favorite flavor is garlicky mushroom spinach with feta. I usually have half an avocado on the side."</p>  
+              </div>
+               <div class="imagediv">
+                <figure>
+                  <figcaption>The Inkster Omelette</figcaption>
+                    <img width="400px" height="300px" src="./images/omellette.jpeg" alt="">
+                </figure>
+              </div>
+            </div>
+            <div class="pics">
+               <div class="captions">
+                <h3>Smoked Salmon Benny</h3>
+                <p>Smoked Salmon Eggs Benedict is the ultimate Sunday brunch recipe. It's healthy, delicious, and a real treat. Plus, with some make-ahead tips I have for you, it's a breeze to make for a group. You will LOVE it!</p>  
+              </div>
+               <div class="imagediv">
+                <figure>
+                  <figcaption>Smoked Salmon Benny</figcaption>
+                    <img width="400px" height="300px" src="./images/Eggs-Benedict.jpeg" alt="">
+                </figure>
+              </div>
+            </div>
+         </div>
+      </section>
+   </body>
+  
 </html>
