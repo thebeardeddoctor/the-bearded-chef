@@ -256,7 +256,7 @@ div.pics:hover figcaption{
   color: transparent;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .breakfastbox {
     display: flex;
     flex-direction: column;
@@ -270,6 +270,12 @@ div.pics:hover figcaption{
 .navbar{
   display: block;
   align-items: center;
+}
+ #vid{
+  
+  top:0;
+  padding: 0;
+  height: 450px;
 }
 
 }
